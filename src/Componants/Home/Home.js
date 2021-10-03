@@ -10,7 +10,7 @@ const Home = () => {
      return (
           <div>
 
-               <Container className="p-3">
+               <Container className="p-3 mb-5">
                     <Row className="">
                          <Col sm={6}>
                               <div className="ms-5 p-5">
@@ -29,7 +29,7 @@ const Home = () => {
                     </Row>
                </Container>
 
-               <Aside></Aside>
+
                <Main></Main>
 
           </div>

@@ -6,7 +6,8 @@
           "CoursePay": "free",
           "image": "https://stylemixthemes.com/masterstudy/udemy-affiliate/wp-content/uploads/sites/12/2020/08/895786_7b4b_2-272x161.jpg",
           "time": " 30 total hours",
-          "instrctor": "Rob Percival"
+          "instrctor": "Rob Percival",
+          "category": "Development"
      },
      {
           "idCourse": 2,
@@ -15,7 +16,8 @@
           "CoursePay": "$65",
           "image": "https://stylemixthemes.com/masterstudy/udemy-affiliate/wp-content/uploads/sites/12/2020/08/246154_d8b0_3-272x161.jpg",
           "time": "6.5 total hours",
-          "instrctor": "Brad Schiff"
+          "instrctor": "Brad Schiff",
+          "category": "Development"
      },
      {
           "idCourse": 3,
@@ -24,7 +26,8 @@
           "CoursePay": "$50",
           "image": "https://stylemixthemes.com/masterstudy/udemy-affiliate/wp-content/uploads/sites/12/2020/08/752950_b773-272x161.jpg",
           "time": " 6.5 total hours",
-          "instrctor": "Jason Taylor"
+          "instrctor": "Jason Taylor",
+          "category": "Development"
      },
      {
           "idCourse": 4,
@@ -33,7 +36,8 @@
           "CoursePay": "$50",
           "image": "https://stylemixthemes.com/masterstudy/udemy-affiliate/wp-content/uploads/sites/12/2020/08/1253188_58f7_2-272x161.jpg",
           "time": " 36.5 total hours",
-          "instrctor": "Rob Percival"
+          "instrctor": "Rob Percival",
+          "category": "Development"
      },
      {
           "idCourse": 5,
@@ -42,6 +46,7 @@
           "CoursePay": "$50",
           "image": "https://stylemixthemes.com/masterstudy/udemy-affiliate/wp-content/uploads/sites/12/2020/08/919872_ed54_6-272x161.jpg",
           "time": "  60.5 total hours",
-          "instrctor": "Tim Buchalka"
+          "instrctor": "Tim Buchalka",
+          "category": "Development"
      }
 ]
