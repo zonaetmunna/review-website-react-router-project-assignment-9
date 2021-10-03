@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row, Button } from 'react-bootstrap';
 import Image from '../../image/banner.png'
+import Main from '../Main/Main';
 
 
 const Home = () => {
@@ -8,10 +9,10 @@ const Home = () => {
      return (
           <div>
 
-               <Container>
+               <Container className="p-3">
                     <Row className="">
                          <Col sm={6}>
-                              <div className="ms-5">
+                              <div className="ms-5 p-5">
 
                                    <h1>Limitless learning, more possibilities</h1>
                                    <p>Online courses open the opportunity for learning to almost anyone, regardless of their scheduling commitments.</p>
@@ -25,13 +26,9 @@ const Home = () => {
                               </div>
                          </Col>
                     </Row>
-
-
-
                </Container>
 
-
-
+               <Main></Main>
 
           </div>
      );

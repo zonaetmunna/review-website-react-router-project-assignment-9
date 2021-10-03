@@ -4,18 +4,23 @@ import { createContext } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './Componants/About/About';
+import Blogs from './Componants/Blogs/Blogs';
+import Details from './Componants/Details/Details';
 import Footer from './Componants/Footer/Footer';
 
 import Home from './Componants/Home/Home';
 import Notpound from './Componants/Notppound/Notpound';
 import Services from './Componants/Services/Services';
-import Header from './Header/Header';
+import Header from './Componants/Header/Header';
 
+
+// create context
 export const courseContext = createContext()
 
 function App() {
   const ceo = "zonaet hossain munna";
   return (
+
     <div>
 
       <courseContext.Provider value={ceo}>
@@ -28,8 +33,14 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
+            <Route path="/blogs">
+              <Blogs></Blogs>
+            </Route>
             <Route path="/services">
               <Services></Services>
+            </Route>
+            <Route path="/service/:idCourse">
+              <Details></Details>
             </Route>
             <Route path="/about">
               <About></About>

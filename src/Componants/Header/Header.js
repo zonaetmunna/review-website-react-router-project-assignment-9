@@ -4,16 +4,16 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
      return (
-          <div>
-               <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+          <div className="">
+               <Navbar collapseOnSelect expand="lg" bg="dark" className="p-4" variant="dark">
                     <Container>
                          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                          <Navbar.Collapse id="responsive-navbar-nav">
                               <Nav className="me-auto">
                                    <Link to='/home' className="m-2 text-white text-decoration-none">Home</Link>
                                    <Link to='/services' className="m-2 text-white text-decoration-none">Services</Link>
+                                   <Link to="/blogs" className="m-2 text-white text-decoration-none">Blogs</Link>
                                    <Link to="/about" className="m-2 text-white text-decoration-none">About</Link>
-                                   <Link to="/services" className="m-2 text-white text-decoration-none">Services</Link>
 
                               </Nav>
                               <Form className="d-flex">
