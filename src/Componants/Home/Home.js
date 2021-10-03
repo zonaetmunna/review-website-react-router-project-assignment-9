@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row, Button } from 'react-bootstrap';
 import Image from '../../image/banner.png'
+import Aside from '../Aside/Aside';
 import Main from '../Main/Main';
 
 
@@ -28,6 +29,7 @@ const Home = () => {
                     </Row>
                </Container>
 
+               <Aside></Aside>
                <Main></Main>
 
           </div>
