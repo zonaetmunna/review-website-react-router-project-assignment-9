@@ -15,15 +15,18 @@ import Header from './Componants/Header/Header';
 
 
 // create context
-export const courseContext = createContext()
+export const courseContext = createContext("ceo name")
 
 function App() {
-  const ceo = "zonaet hossain munna";
+  const ceo = {
+    name: "munna",
+    age: '22'
+  }
   return (
 
     <div>
 
-      <courseContext.Provider value={ceo}>
+      <courseContext.Provider value={ceo.name}>
         <Router>
           <Header></Header>
           <Switch>

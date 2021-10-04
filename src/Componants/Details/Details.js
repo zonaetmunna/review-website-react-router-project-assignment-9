@@ -18,18 +18,17 @@ const Details = () => {
      console.log(details)
      return (
           <div>
-
                <Container className="m-5 shadow p-5">
                     <Row>
                          <Col sm={8}>
                               <div>
                                    <img src={details.image} className="mb-3" alt="" />
-
                                    <h1>{details?.courseName}</h1>
                                    <h5>{details.courseDetails}</h5>
                                    <h5 className="text-secondary">Instractor :{details.instrctor}</h5>
                                    <h5><i class="fas fa-dollar-sign"></i>{details?.CoursePay}</h5>
                                    <h5>duration :{details?.time}</h5>
+                                   <p>{idCourse}</p>
                                    <h5><i class="fas fa-dollar-sign"></i>{details.CoursePay} </h5>
                                    <Button onClick={handleOnBack} >Back to Courses</Button>
                               </div>
@@ -37,9 +36,6 @@ const Details = () => {
                          <Col sm={4}></Col>
                     </Row>
                </Container>
-
-
-
           </div>
      );
 };

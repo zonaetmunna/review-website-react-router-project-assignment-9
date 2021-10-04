@@ -3,7 +3,7 @@ import { Button, Card, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 
 const Service = (props) => {
-     const { courseName, idCourse, image, instrctor, time, CoursePay, courseDetails } = props.course;
+     const { courseName, idCourse, image, instrctor, time, courseDetails } = props.course;
      const history = useHistory()
 
      const handleDetails = () => {
@@ -20,10 +20,7 @@ const Service = (props) => {
                               <Card.Text>{courseDetails}</Card.Text>
                               <Card.Text className="text-primary">Instractor : {instrctor}</Card.Text>
                               <Card.Text className="text-primary">Course-duration : {time}</Card.Text>
-
                               <Button onClick={handleDetails} className="ms-2">Details</Button>
-
-
                          </Card.Body>
                     </Card>
                </Col>

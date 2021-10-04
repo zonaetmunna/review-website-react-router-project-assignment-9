@@ -1,12 +1,9 @@
 import React from 'react';
 import { Container, Form, FormControl, Nav, Navbar, Button } from 'react-bootstrap';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
-     const activeStyle = {
-          fontWeight: "bold",
-          color: "blue"
-     }
+     const activeStyle = { fontWeight: "bold", color: "blue" };
      return (
           <div className="">
                <Navbar collapseOnSelect expand="lg" bg="dark" className="p-4" variant="dark">
@@ -15,11 +12,11 @@ const Header = () => {
 
                          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                          <Navbar.Collapse id="responsive-navbar-nav">
-                              <Nav className="me-auto">
+                              <Nav className="me-auto text-white">
                                    <NavLink to='/home' activeStyle={activeStyle} className="m-2 text-white text-decoration-none">Home</NavLink>
                                    <NavLink to='/courses' activeStyle={activeStyle} className="m-2 text-white text-decoration-none">Courses</NavLink>
                                    <NavLink to="/blogs" activeStyle={activeStyle} className="m-2 text-white text-decoration-none">Blogs</NavLink>
-                                   <NavLink to="/about" activeStyle={activeStyle} className="m-2 text-white text-decoration-none">About</NavLink>
+                                   <NavLink to="/about" activeStyle={activeStyle} className="m-2 text-white text-decoration-none">About us</NavLink>
 
                               </Nav>
                               <Form className="d-flex">

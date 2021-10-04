@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Blogs = () => {
      return (
@@ -10,7 +11,7 @@ const Blogs = () => {
 
                          <Col sm={12} lg={8}>
                               <div className="m-3">
-                                   <h3 ><a href="#1">" Those Other College Expenses You Aren`t Thinking About"</a></h3>
+                                   <h3 ><Link to="#1">" Those Other College Expenses You Aren`t Thinking About"</Link></h3>
 
                                    <img src="https://stylemixthemes.com/masterstudy/one-instructor/wp-content/uploads/sites/14/2015/06/photo-1490376840453-5f616fbebe5b-1170x500.jpeg" className="img-fluid" alt="" />
                                    Online diplomas are awarded for one to two years of study at a community college, technical school or university. If determined, students can complete an online diploma program while continuing to work, care for loved ones or fulfill other commitments. Online diploma programs are highly practical, allowing students to study a specific area, with a thorough overview of the field.
@@ -27,7 +28,7 @@ const Blogs = () => {
 
                          <Col sm={12} lg={8}>
                               <div className="m-3">
-                                   <h2><a href="#2">OUR MAIN TARGET IS TO “DEVELOPING YOURSELF AS A LEADER”</a></h2>
+                                   <h2><Link to="#2">OUR MAIN TARGET IS TO “DEVELOPING YOURSELF AS A LEADER”</Link></h2>
 
                                    <img src="https://stylemixthemes.com/masterstudy/one-instructor/wp-content/uploads/sites/14/2018/08/photo-1517520287167-4bbf64a00d66-1170x500.jpeg" className="img-fluid" alt="" />
                                    <h5>Summer courses are a great way to gain qualifications and academic credits in a convenient format. Offered during the summer months while some working professionals and students are taking a break, online summer courses fit nicely into a busy schedule. The web-based study format opens doors to studying at a university that is geographically distant, or at times that are most convenient for each individual student.</h5>
@@ -36,7 +37,7 @@ const Blogs = () => {
 
                          <Col sm={12} lg={8}>
                               <div className="m-3">
-                                   <h2><a href="#">An Informal Survey of Web Performance Tooling in 2021</a></h2>
+                                   <h2><Link to="#3">An Informal Survey of Web Performance Tooling in 2021</Link></h2>
                                    <h6>What tools are web performance engineers using to measure site speed in 2021? Learn which are the most used tools as well as some new tools to try out.</h6>
                                    <p>Sometimes it's hard to discover all the great web performance measurement tools out there. What are performance engineers using in 2021? What tools do they want to use?
 
@@ -58,7 +59,7 @@ const Blogs = () => {
 
                          <Col sm={12} lg={8}>
                               <div className="m-3">
-                                   <h2><a href="#">Top web performance tools</a></h2>
+                                   <h2><Link to="#4">Top web performance tools</Link></h2>
                                    <h6>What tools are web performance engineers using to measure site speed in 2021?Learn which are the most used tools as well as some new tools to try out.</h6>
                                    <p>Combining the data from the first two columns ("I use this tool regularly" and "I use this tool sometimes") yields a list of the most used tools:
 
@@ -80,7 +81,7 @@ const Blogs = () => {
 
                          <Col sm={12} lg={8}>
                               <div className="m-3">
-                                   <h2><a href="#">CSS Wizardry Posts Archive</a> </h2>
+                                   <h2><Link to="#5">CSS Wizardry Posts Archive</Link> </h2>
                                    <h6>I have written 225 post on this site, mostly covering CSS, architecture, performance, and web development.Find a reverse-chronological list of them all here.</h6>
                                    <p>2011
                                         December 11: On HTML and CSS best practices

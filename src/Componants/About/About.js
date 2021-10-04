@@ -1,7 +1,10 @@
-import React from 'react';
+
+
 import { Col, Container, Row } from 'react-bootstrap';
 
+
 const About = () => {
+
      return (
           <div>
 
@@ -22,7 +25,10 @@ const About = () => {
                               </div>
                          </Col>
                          <Col xs={6} md={4}>
+                              <div className="text-center">
 
+
+                              </div>
                          </Col>
                     </Row>
                </Container>

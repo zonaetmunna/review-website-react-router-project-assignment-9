@@ -38,15 +38,5 @@
           "time": " 36.5 total hours",
           "instrctor": "Rob Percival",
           "category": "Development"
-     },
-     {
-          "idCourse": 5,
-          "courseName": "Android Java Masterclass – Become an App Developer",
-          "courseDetails": "The plugin is a full package of innovative features. The system includes a powerful admin panel and course builder, messaging system, advanced quiz...",
-          "CoursePay": "$50",
-          "image": "https://stylemixthemes.com/masterstudy/udemy-affiliate/wp-content/uploads/sites/12/2020/08/919872_ed54_6-272x161.jpg",
-          "time": "  60.5 total hours",
-          "instrctor": "Tim Buchalka",
-          "category": "Development"
      }
 ]

@@ -5,7 +5,7 @@ const Footer = () => {
      return (
           <div className="bg-dark text-white ">
 
-               <Container className=" p-3 ">
+               <Container className=" p-3 mt-5">
                     <Row>
                          {/* about part */}
                          <Col sm={6} md={4} lg={4}>

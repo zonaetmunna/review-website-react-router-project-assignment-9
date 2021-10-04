@@ -17,7 +17,7 @@ const Main = () => {
      return (
           <div >
                <Container>
-                    <h3 className="text-primary ps-3">Popular Development Courses</h3>
+                    <h3 className="text-primary text-center  ps-3">Popular Development Courses</h3>
                     <Row xs={1} md={2} className="g-4 p-3">
 
                          {
