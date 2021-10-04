@@ -9,9 +9,10 @@ const Home = () => {
 
      return (
           <div>
-
+               {/* header part */}
                <Container className="p-3 mb-5">
                     <Row className="">
+                         {/* header details */}
                          <Col sm={6}>
                               <div className="ms-5 p-5">
 
@@ -21,6 +22,7 @@ const Home = () => {
 
                               </div>
                          </Col>
+                         {/* headder thumbnail */}
                          <Col sm={6}>
                               <div>
                                    <img src={Image} className="img-fluid" alt="" />
@@ -29,7 +31,7 @@ const Home = () => {
                     </Row>
                </Container>
 
-
+               {/* main componant for course detials */}
                <Main></Main>
 
           </div>

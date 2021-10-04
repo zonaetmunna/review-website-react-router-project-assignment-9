@@ -1,8 +1,12 @@
 import React from 'react';
 import { Container, Form, FormControl, Nav, Navbar, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
+     const activeStyle = {
+          fontWeight: "bold",
+          color: "blue"
+     }
      return (
           <div className="">
                <Navbar collapseOnSelect expand="lg" bg="dark" className="p-4" variant="dark">
@@ -12,10 +16,10 @@ const Header = () => {
                          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                          <Navbar.Collapse id="responsive-navbar-nav">
                               <Nav className="me-auto">
-                                   <Link to='/home' className="m-2 text-white text-decoration-none">Home</Link>
-                                   <Link to='/courses' className="m-2 text-white text-decoration-none">Courses</Link>
-                                   <Link to="/blogs" className="m-2 text-white text-decoration-none">Blogs</Link>
-                                   <Link to="/about" className="m-2 text-white text-decoration-none">About</Link>
+                                   <NavLink to='/home' activeStyle={activeStyle} className="m-2 text-white text-decoration-none">Home</NavLink>
+                                   <NavLink to='/courses' activeStyle={activeStyle} className="m-2 text-white text-decoration-none">Courses</NavLink>
+                                   <NavLink to="/blogs" activeStyle={activeStyle} className="m-2 text-white text-decoration-none">Blogs</NavLink>
+                                   <NavLink to="/about" activeStyle={activeStyle} className="m-2 text-white text-decoration-none">About</NavLink>
 
                               </Nav>
                               <Form className="d-flex">

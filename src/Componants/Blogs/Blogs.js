@@ -8,8 +8,6 @@ const Blogs = () => {
                     <Row>
                          <h2 className=" mb-4">Top <span className="text-primary">blogs</span>  in week</h2>
 
-
-
                          <Col sm={12} lg={8}>
                               <div className="m-3">
                                    <h3 ><a href="#1">" Those Other College Expenses You Aren`t Thinking About"</a></h3>
