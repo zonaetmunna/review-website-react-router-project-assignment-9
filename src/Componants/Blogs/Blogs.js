@@ -81,7 +81,7 @@ const Blogs = () => {
 
                          <Col sm={12} lg={8}>
                               <div className="m-3">
-                                   <h2><Link to="#5">CSS Wizardry Posts Archive</Link> </h2>
+                                   <h2><Link to="">CSS Wizardry Posts Archive</Link> </h2>
                                    <h6>I have written 225 post on this site, mostly covering CSS, architecture, performance, and web development.Find a reverse-chronological list of them all here.</h6>
                                    <p>2011
                                         December 11: On HTML and CSS best practices
