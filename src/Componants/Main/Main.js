@@ -3,6 +3,7 @@ import { Card, Col, Row, Button, Container } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 
 const Main = () => {
+     // state declared
      const [courses, setCourses] = useState([])
      const history = useHistory()
      useEffect(() => {
@@ -10,10 +11,12 @@ const Main = () => {
                .then(res => res.json())
                .then(data => setCourses(data))
      }, [])
+
+     // handle click
      const handleDetails = () => {
           history.push("/courses")
      }
-     console.log(courses)
+
      return (
           <div >
                <Container>
@@ -31,7 +34,7 @@ const Main = () => {
                                                   <Card.Text>{course.courseDetails}</Card.Text>
                                                   <Card.Text>{course.coursepay}</Card.Text>
                                                   <Card.Text className="text-primary">Category : {course.category}</Card.Text>
-
+                                                  <Card.Text className="text-primary"><i class="fas fa-dollar-sign"></i> {course.CoursePay}</Card.Text>
                                                   <Button onClick={handleDetails} variant="primary">More</Button>{' '}
                                              </Card.Body>
                                         </Card>

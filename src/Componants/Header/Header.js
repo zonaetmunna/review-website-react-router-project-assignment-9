@@ -7,7 +7,7 @@ const Header = () => {
      return (
           <div className="">
                <Navbar collapseOnSelect expand="lg" bg="dark" className="p-4" variant="dark">
-                    <h1 className="text-primary ">DEVELOPMENT LEARNING</h1>
+                    <h3 className="text-primary ">DEV LEARNING</h3>
                     <Container>
 
                          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
