@@ -5,13 +5,15 @@ const About = () => {
      return (
           <div>
 
-               <Container>
+               <Container className="p-5">
 
                     <Row>
                          <Col xs={12} md={8}>
                               <div>
                                    <h1>About us</h1>
-                                   <p>Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci lectus, consectetur vel, rutrum eu ipsum. Mauris accumsan eros eget libero posuere vulputate Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, repellat!</p>
+                                   <p>Masterstudy is Education WordPress theme featured by Learning Management System (LMS) for online education.
+                                        Developed by StylemixThemes.
+                                        Our user experience ideals run through every vein of our company. Our ideals are not to attain perfection, but rather to attain pleasure. Using our product should feel enjoyable - like playing a game - it should be easy, exciting and uplifting. Something to try and subsequently to learn from. This is the same experience our employees have working for us.</p>
                               </div>
                               <div>
                                    <h1>Contact us</h1>
@@ -20,7 +22,7 @@ const About = () => {
                               </div>
                          </Col>
                          <Col xs={6} md={4}>
-                              xs=6 md=4
+
                          </Col>
                     </Row>
                </Container>

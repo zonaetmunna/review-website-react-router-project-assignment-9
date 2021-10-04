@@ -7,7 +7,7 @@ const Service = (props) => {
      const history = useHistory()
 
      const handleDetails = () => {
-          history.push(`/service/${idCourse}`)
+          history.push(`/course/${idCourse}`)
      }
 
      return (
@@ -20,9 +20,7 @@ const Service = (props) => {
                               <Card.Text>{courseDetails}</Card.Text>
                               <Card.Text className="text-primary">Instractor : {instrctor}</Card.Text>
                               <Card.Text className="text-primary">Course-duration : {time}</Card.Text>
-                              <Card.Text><i class="fas fa-dollar-sign"></i> {CoursePay}</Card.Text>
 
-                              <Button className="" >Add to Cart</Button>
                               <Button onClick={handleDetails} className="ms-2">Details</Button>
 
 

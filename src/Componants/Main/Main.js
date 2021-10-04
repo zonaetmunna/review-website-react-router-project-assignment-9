@@ -11,7 +11,7 @@ const Main = () => {
                .then(data => setCourses(data))
      }, [])
      const handleDetails = () => {
-          history.push("/services")
+          history.push("/courses")
      }
      console.log(courses)
      return (
@@ -24,7 +24,7 @@ const Main = () => {
                               courses.map(course => (
 
                                    <Col>
-                                        <Card className="p-3 shadow-lg">
+                                        <Card className="p-3 shadow-lg h-100">
                                              <Card.Img variant="top" src={course.image} />
                                              <Card.Body>
                                                   <Card.Title>{course.courseName}</Card.Title>
@@ -32,7 +32,7 @@ const Main = () => {
                                                   <Card.Text>{course.coursepay}</Card.Text>
                                                   <Card.Text className="text-primary">Category : {course.category}</Card.Text>
 
-                                                  <Button onClick={handleDetails} variant="primary">Courses</Button>{' '}
+                                                  <Button onClick={handleDetails} variant="primary">More</Button>{' '}
                                              </Card.Body>
                                         </Card>
                                    </Col>

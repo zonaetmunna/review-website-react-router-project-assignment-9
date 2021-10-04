@@ -13,7 +13,7 @@ const Details = () => {
      }, [])
 
      const handleOnBack = () => {
-          history.push('/services')
+          history.push('/courses')
      }
      console.log(details)
      return (
@@ -30,6 +30,7 @@ const Details = () => {
                                    <h5 className="text-secondary">Instractor :{details.instrctor}</h5>
                                    <h5><i class="fas fa-dollar-sign"></i>{details?.CoursePay}</h5>
                                    <h5>duration :{details?.time}</h5>
+                                   <h5><i class="fas fa-dollar-sign"></i>{details.CoursePay} </h5>
                                    <Button onClick={handleOnBack} >Back to Courses</Button>
                               </div>
                          </Col>

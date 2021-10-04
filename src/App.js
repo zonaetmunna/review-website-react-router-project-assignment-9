@@ -33,14 +33,14 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/blogs">
-              <Blogs></Blogs>
-            </Route>
-            <Route path="/services">
+            <Route path="/courses">
               <Services></Services>
             </Route>
-            <Route path="/service/:idCourse">
+            <Route path="/course/:idCourse">
               <Details></Details>
+            </Route>
+            <Route path="/blogs">
+              <Blogs></Blogs>
             </Route>
             <Route path="/about">
               <About></About>
