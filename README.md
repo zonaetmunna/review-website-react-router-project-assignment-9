@@ -1,5 +1,5 @@
 # DEV LEARNING
-This project live link :(https://app.netlify.com/sites/development-learing-0adc2b/settings/general).
+This project live link :(https://development-learing-0adc2b.netlify.app/home).
 
 ## advantages
 * this site help you for your learning
